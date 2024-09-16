@@ -1,16 +1,22 @@
 ## Hi there 👋
 
-<!--
-**C111118118/C111118118** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# This is an H1
+## This is an H2
 
-Here are some ideas to get you started:
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+| test | 測試        |    $3333 |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+階層式區塊用兩個大於符號(>>)：
+> 新北市
+>>板橋區
+
+>>中和區
+
+> 桃園縣
+>>大溪鎮
+
+>>龜山鄉
