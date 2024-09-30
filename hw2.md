@@ -1,4 +1,4 @@
-```
+```mermaid
 gantt
     title A Gantt Diagram Example
 
