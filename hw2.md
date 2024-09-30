@@ -3,7 +3,7 @@ gantt
     title A Gantt Diagram Example
 
     section Planning
-    研擬計畫           :a1, 2024-09-30, 7d
+    研擬計畫     :a1, 2024-09-30, 7d
     任務分配     :after a1  , 3d
     取得硬體     :a2, after a1, 3d
 
