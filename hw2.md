@@ -8,7 +8,7 @@ gantt
     取得硬體     :a3, after a2, 3d
 
     section Development
-    程式開發      :a4, 2024-10-31, 3d
+    程式開發      :a4, 2024-10-15, 3d
     安裝軟體      :a5, after a4, 2d
 
     section Testing
