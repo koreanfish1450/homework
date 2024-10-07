@@ -5,7 +5,7 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %Y-%m-%d
 
-    研擬計畫           :a1, 2024-01-01, 1d
+    研擬計畫           :a1, 2024-09-20, 1d
     任務分配           :a2, after a1, 3d
     取得硬體           :a3, after a2, 5d
 
