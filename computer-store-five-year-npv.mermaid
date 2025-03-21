@@ -1,0 +1,37 @@
+flowchart LR
+    Decision["決策點"]
+    
+    LocalExpand["選項1: 在當地擴展\n成本: $50,000"]
+    NewLocation["選項2: 擴展到新地點\n成本: $150,000"]
+    NoAction["選項3: 不採取行動\n成本: $0"]
+    
+    LocalStrong["強勁增長 (65%)\n$180,000/年\nNPV(5年): $546,852\n淨值: $496,852"]
+    LocalWeak["弱增長 (35%)\n$100,000/年\nNPV(5年): $303,807\n淨值: $253,807"]
+    
+    NewStrong["強勁增長 (65%)\n$175,000/年\nNPV(5年): $531,662\n淨值: $381,662"]
+    NewWeak["弱增長 (35%)\n$105,000/年\nNPV(5年): $318,997\n淨值: $168,997"]
+    
+    NoStrong["強勁增長 (65%)\n$150,000/年\nNPV(5年): $456,730\n淨值: $456,730"]
+    NoWeak["弱增長 (35%)\n$95,000/年\nNPV(5年): $289,116\n淨值: $289,116"]
+    
+    Decision --> LocalExpand
+    Decision --> NewLocation
+    Decision --> NoAction
+    
+    LocalExpand -->|65%| LocalStrong
+    LocalExpand -->|35%| LocalWeak
+    
+    NewLocation -->|65%| NewStrong
+    NewLocation -->|35%| NewWeak
+    
+    NoAction -->|65%| NoStrong
+    NoAction -->|35%| NoWeak
+    
+    %% 計算加權期望值
+    LocalEV["期望NPV: $405,190"]
+    NewEV["期望NPV: $307,130"]
+    NoEV["期望NPV: $397,556"]
+    
+    LocalStrong -.-> LocalEV
+    NewStrong -.-> NewEV
+    NoStrong -.-> NoEV
